@@ -2,4 +2,4 @@
 
 ## Personal Website: 
 
-|E-mail|https://andyser37.github.io/
+https://andyser37.github.io/
