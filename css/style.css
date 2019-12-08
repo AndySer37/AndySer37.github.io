@@ -105,8 +105,7 @@ figure {
   #colorlib-aside .position {
     display: block;
     margin-bottom: 2em;
-    font-size: 12px;
-    text-transform: uppercase; }
+    font-size: 12px;}
   #colorlib-aside #colorlib-logo {
     text-align: right;
     font-weight: 700;
@@ -287,6 +286,9 @@ figure {
         min-height: 700px;
         padding: 2.5em;
         position: relative; }
+        #colorlib-hero .flexslider .slider-text > .slider-text-inner .desc {
+          padding: 1.5em;
+          background-color: rgba(255, 255, 255, 0.6); }
         @media screen and (max-width: 768px) {
           #colorlib-hero .flexslider .slider-text > .slider-text-inner {
             text-align: center; } }
@@ -297,7 +299,7 @@ figure {
           font-family: "Playfair Display", Georgia, serif; }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
           margin-bottom: 20px;
-          font-size: 60px;
+          font-size: 40px;
           line-height: 1.3;
           font-weight: 700; }
           @media screen and (max-width: 768px) {
@@ -837,7 +839,7 @@ body.offcanvas {
         .colorlib-feature .colorlib-icon i {
           font-size: 40px; } }
   .colorlib-feature .colorlib-text {
-    padding-left: 120px;
+    padding-left: 150px;
     width: 100%; }
     .colorlib-feature .colorlib-text h2, .colorlib-feature .colorlib-text h3 {
       margin: 0;
@@ -846,7 +848,7 @@ body.offcanvas {
       font-weight: 500;
       margin-bottom: 20px;
       color: rgba(0, 0, 0, 0.7);
-      font-size: 14px;
+      font-size: 10px;
       letter-spacing: 3px;
       text-transform: uppercase; }
   .colorlib-feature.colorlib-feature-sm .colorlib-text {
